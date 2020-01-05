@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>按钮下拉菜单</title>
+    <script src="../tools/jquery.min.js"></script>
+    <link href="../tools/bootstrap.min.css" rel="stylesheet">
+    <script src="../tools/bootstrap.min.js"></script>
+</head>
+<body>
+<!--单按钮下拉菜单-->
+<div class="btn-group">
+    <button type="button" class="btn btn-success dropdown-toggle "  data-toggle="dropdown">
+        success
+        <span class="caret"></span>
+    </button>
+
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <a href="#">HTML</a>
+        </li>
+        <li role="presentation">
+            <a href="#">CSS</a>
+        </li>
+
+        <li role="presentation">
+            <a href="#">Javascript</a>
+        </li>
+        <li role="presentation">
+            <a href="#">AJAX</a>
+        </li>
+    </ul>
+</div>
+<div style="height:100px"></div>
+<!--分裂式按钮下拉菜单-->
+<div class="btn-group">
+    <button type="button" class="btn btn-default">默认</button>
+    <button type="button" class="btn btn-default dropdown-toggle"
+            data-toggle="dropdown">
+        <span class="caret"></span>
+
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <a href="#">HTML</a>
+        </li>
+        <li role="presentation">
+            <a href="#">CSS</a>
+        </li>
+
+        <li role="presentation">
+            <a href="#">Javascript</a>
+        </li>
+        <li role="presentation">
+            <a href="#">AJAX</a>
+        </li>
+    </ul>
+</div>
+<div style="height:100px"></div>
+<!--按钮大小-->
+<div class="btn-group">
+    <button type="button" class="btn btn-lg btn-default dropdown-toggle " data-toggle="dropdown">
+        大号
+        <span class="caret"></span>
+    </button>
+
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <a href="#">HTML</a>
+        </li>
+        <li role="presentation">
+            <a href="#">CSS</a>
+        </li>
+
+        <li role="presentation">
+            <a href="#">Javascript</a>
+        </li>
+        <li role="presentation">
+            <a href="#">AJAX</a>
+        </li>
+    </ul>
+</div>
+<div style="height:100px"></div>
+<!--向上弹出式菜单-->
+<div style="height:150px"></div>
+
+<div class="btn-group dropup">
+    <button type="button" class="btn btn-default dropdown-toggle " id="dropdownMenu1" data-toggle="dropdown">
+        default
+        <span class="caret"></span>
+    </button>
+
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li>
+            <a href="#">HTML</a>
+        </li>
+        <li role="presentation">
+            <a href="#">CSS</a>
+        </li>
+
+        <li role="presentation">
+            <a href="#">Javascript</a>
+        </li>
+        <li role="presentation">
+            <a href="#">AJAX</a>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
